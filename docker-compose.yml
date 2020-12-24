@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  btx24:
+    image: wayneshephard/almost-btx
+    privileged: true
+    container_name: smp-btx
+    ports:
+      - 11111:80
+    # volumes
